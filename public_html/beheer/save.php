@@ -5,7 +5,7 @@ $id=$_GET['id'];
 $name=$_GET['name'];
 
 // Get values from form 
-$text=mysqli_real_escape_string($_POST['text']);
+$text=mysqli_real_escape_string($con,$_POST['text']);
 
 // Insert data into mysql 
 $sql="UPDATE $tbl_name SET text='$text' WHERE id='$id'";
