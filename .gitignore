@@ -2,3 +2,4 @@
 .env
 femkewit.me.htpasswd
 public_html/beheer/.htaccess
+local_assets/
