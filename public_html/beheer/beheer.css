@@ -1,0 +1,86 @@
+* { margin: 0; padding: 0; }
+html, body { width: 100%; height: 100%; }
+html {
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	background-color: silver;
+}
+body {	overflow: auto; }
+
+/* Building blocks */
+.container {
+	margin: auto;
+	width: 750px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+/* Headers */
+.head {
+	background-color: #47257E;
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	padding: 10px;
+	color: white;
+}
+.head h1 {
+	font-size: 20px;
+}
+
+/* Text */
+td h1 {
+	margin: 1rem;
+	line-height: 60px;
+	font-size: 60px;
+	text-align: center;
+	font-weight: 400;
+	font-family: 'Rochester', cursive;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+	.transition (all,500ms,0ms);
+}
+
+td p {
+	line-height: 150%;	
+	margin: 1rem;
+}
+
+td a:link, td a:visited {	text-decoration: none;			color: @rood-oranje;	}
+td a:hover {				text-decoration: underline;		color: @paars;			}
+td a:active {				text-decoration: none;			color: white; 		background-color: @paars;	}
+
+/* Tables */
+table,tr,th,td {
+	border:1px solid #BBBBBB;
+	padding: 5px;
+}
+table {
+	border-collapse:collapse;
+//	width: 100%;
+	margin-bottom: 20px;
+}
+tr:nth-child(odd)		{ background-color:#eee; }
+tr:nth-child(even)		{ background-color:#fff; }
+
+.t-text {		width: 500px;}
+.t-name {		width: 150px; text-align: center;}
+.t-edit {		width: 100px; text-align: center; 	font-weight: bold;	text-transform: uppercase; }
+
+table textarea, table input {
+	padding: 3px;
+	margin: -5px;
+	height: 50px;
+	width: 100%;
+	clear: both;
+	border: 0;
+	background-color: transparent;
+}
+.edittable textarea {
+	height: 300px;
+}
+button {
+	padding: 3px;
+}
