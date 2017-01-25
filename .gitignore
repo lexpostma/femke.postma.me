@@ -1,3 +1,4 @@
 .DS_Store
 .env
 femkewit.me.htpasswd
+public_html/beheer/.htaccess
