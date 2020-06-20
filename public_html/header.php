@@ -19,8 +19,8 @@
 		$description = $row['text'];
 ?>
 		<meta name="description" content="<?=$description;};?>" />
-		<meta name="author" content="Femke Wit" />
-		<meta name="copyright" content="Copyright (c) 2013-<?php echo date('Y');?> by Femke Wit" />
+		<meta name="author" content="Femke Postma" />
+		<meta name="copyright" content="Copyright (c) 2013-<?php echo date('Y');?> by Femke Postma" />
 		<meta name="language" content="Dutch" />
 		<meta http-equiv="language" content="NL" />
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />	

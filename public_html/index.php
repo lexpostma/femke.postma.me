@@ -1,5 +1,5 @@
 <?php
-	$page_title = "Femke Wit"; 
+	$page_title = "Femke Postma"; 
 	include("header.php"); ?>
 
 
@@ -24,7 +24,7 @@
 		<a href="https://www.facebook.com/femkewit" class="social-facebook" title="Facebook">Facebook</a>
 		<a href="https://twitter.com/femke_wit" class="social-twitter" title="Twitter">Twitter</a>
 		<a href="files/web_cv_Femke_Wit.pdf" class="social-cv" title="Download mijn cv">CV</a>
-		<a href="http://lexpostma.me" class="social-liefde" title="Liefde">Liefde</a>
+		<a href="https://lexpostma.me" class="social-liefde" title="Liefde">Liefde</a>
 	</div>
 
 </div>
